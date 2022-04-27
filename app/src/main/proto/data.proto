@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example.datastoreimplemntation";
+option java_multiple_files = true;
+
+
+message MessagePreference{
+  string name = 1;
+  int32 id = 2;
+}
